@@ -8,12 +8,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">App name</a>
+      <a class="navbar-brand" href="/">¡Yahaa chat!</a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       {{#if currentUser}}
         <p class="navbar-text">
-          Signed in | <a href="#!" id="logout">logout</a>
+        {{currentUser.profile.name}} | <a href="#!" id="logout">logout</a>
         </p>
       {{else}}
         <li>
