@@ -19,9 +19,7 @@
       </div>
     </div> 
     <div class="row">
-      <form class="form" action="">
-        <div class="form-group"><textarea id="" class="form-control" style="width:100%;"></textarea></div>
-      </form>
+      {{> quickForm id="insertMessageForm" collection="Messages" type="insert" omitFields="user_id, created_at"}}
     </div>
   </div>
 </template>
