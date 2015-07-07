@@ -10,10 +10,10 @@
         </ul>
       </div>
       <div class="col-md-2">
-        <h2>Users</h2>
+        <h2>Online now</h2>
         <ul class="list-group"  style="max-height: 500px; height: 500px; overflow-y: auto; border: 1px solid #ccc;"> 
-          {{#each users}}
-          <li class="list-group-item">{{username}}</li>
+          {{#each online_users}}
+            <li class="list-group-item">{{username}}</li>
           {{/each}}
         </ul>
       </div>
